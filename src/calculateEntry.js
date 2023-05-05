@@ -5,7 +5,7 @@ const countEntrants = (entrants) => {
 };
 
 const calculateEntry = (entrants) => {
-  // seu código aqui
+  // seu código aquia
 };
 
 module.exports = { calculateEntry, countEntrants };
