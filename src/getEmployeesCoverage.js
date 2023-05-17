@@ -14,8 +14,10 @@ const paramName = (eN) => {
 paramName({ name: 'Sharonda' });
 
 const getSpecies = (animalId) => {
-  const animal = species.filter((e) => e.id === animalId);
-  return console.log(animal);
+  const arr = [];
+  const animal = species.find((e) => e.id === animalId).location;
+  console.log(animal);
+  return console.log(arr.push(animal));
 };
 getSpecies('533bebf3-6bbe-41d8-9cdf-46f7d13b62ae');
 
